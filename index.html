@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive sidebar submenus</title>
+	<!-- Add icons -->
+	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+	<!-- Add style -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- header -->
+	<header class="header">
+		<div class="header_container">
+			<img src="img/perfil.jpg" alt="" class="header_img">
+
+			<a href="#" class="header_logo">Islambek</a>
+
+			<div class="header_search">
+				<input type="search" placeholder="Search" class="header_input">
+				<i class="bx bx-search header_icon"></i>
+			</div>
+
+			<div class="header_toggle">
+				<i class="bx bx-menu" id="header-toggle"></i>
+			</div>
+		</div>
+	</header>
+	<!-- navbar -->
+	<div class="nav" id="navbar">
+		<nav class="nav_container">
+			<div>
+				<a href="#" class="nav_link nav_logo">
+					<i class="bx bxs-disc nav_icon"></i>
+					<span class="nav_logo-name">Islambek</span>
+				</a>
+
+				<div class="nav_list">
+					<div class="nav_items">
+						<h3 class="nav_subtitle">Profile</h3>
+
+						<a href="#" class="nav_link active">
+							<i class="bx bx-home nav_icon"></i>
+							<span class="nav_name">Home</span>
+						</a>
+
+						<div class="nav_dropdown">
+							<a href="#" class="nav_link">
+								<i class="bx bx-user nav_icon"></i>
+								<span class="nav_name">Profile</span>
+								<i class="bx bx-chevron-down nav_icon nav_dropdown-icon"></i>
+							</a>
+
+							<div class="nav_dropdown-collapse">
+								<div class="nav_dropdown-content">
+									<a href="#" class="nav_dropdown-item">Passwords</a>
+									<a href="#" class="nav_dropdown-item">Mail</a>
+									<a href="#" class="nav_dropdown-item">Accounts</a>
+								</div>
+							</div>
+						</div>
+
+						<a href="#" class="nav_link">
+							<i class="bx bx-message-rounded nav_icon"></i>
+							<span class="nav_name">Messages</span>
+						</a>
+					</div>
+
+					<div class="nav_items">
+						<h3 class="nav_subtitle">Menu</h3>
+
+						<div class="nav_dropdown">
+							<a href="#" class="nav_link">
+								<i class="bx bx-bell nav_icon"></i>
+								<span class="nav_name">Notifications</span>
+								<i class="bx bx-chevron-down nav_icon nav_dropdown-icon"></i>
+							</a>
+
+							<div class="nav_dropdown-collapse">
+								<div class="nav_dropdown-content">
+									<a href="#" class="nav_dropdown-item">Blocked</a>
+									<a href="#" class="nav_dropdown-item">Silenced</a>
+									<a href="#" class="nav_dropdown-item">Publish</a>
+									<a href="#" class="nav_dropdown-item">Program</a>
+								</div>
+							</div>
+						</div>
+
+						<a href="#" class="nav_link">
+							<i class="bx bx-compass nav_icon"></i>
+							<span class="nav_name">Explore</span>
+						</a>
+
+						<a href="#" class="nav_link">
+							<i class="bx bx-bookmark nav_icon"></i>
+							<span class="nav_name">Saved</span>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<a href="#" class="nav_link nav_logout">
+				<i class="bx bx-log-out nav_icon"></i>
+				<span class="nav_name">Log Out</span>
+			</a>
+		</nav>
+	</div>
+	<!-- content -->
+	<main>
+		<section>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, a, quam. Tenetur quidem quas nesciunt quibusdam adipisci architecto, aperiam eius nihil beatae sed veritatis ratione natus nisi a inventore, non?</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, a, quam. Tenetur quidem quas nesciunt quibusdam adipisci architecto, aperiam eius nihil beatae sed veritatis ratione natus nisi a inventore, non?</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, a, quam. Tenetur quidem quas nesciunt quibusdam adipisci architecto, aperiam eius nihil beatae sed veritatis ratione natus nisi a inventore, non?</p>
+		</section>
+	</main>
+	<!-- Add JS file -->
+	<script src="js/main.js"></script>
+</body>
+</html>
